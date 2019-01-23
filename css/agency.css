@@ -688,4 +688,14 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   background-color: #fed136;
 }
 
+.logo-parceiros{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: all 0.2s;
+}
 
+.logo-parceiros:hover{
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    transition: all 0.2s;
+}
